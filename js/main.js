@@ -100,7 +100,7 @@ const registroMovimiento = () => {
 //Relleno de la tabla
 
 const detalle = ({ fechaIngreso, categoria, subcategoria, monto }) => {
-    const tablaDetalle = document.querySelector("#tablaDetalle");
+    const tablaDetalle = document.querySelector("#tablaDetalle tbody");
     const tr = document.createElement("tr");
 
     if (categoria === "ingreso") {
